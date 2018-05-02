@@ -32,7 +32,8 @@ public class Utility {
 		OrderServiceImpl osimpl = new OrderServiceImpl();
 		
 		osimpl.submitOrder("", 1);
-			
+		
+		String s = "star.com";
 		
 	}
 

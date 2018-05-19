@@ -2,15 +2,16 @@ package com.sageit.executorframework;
 
 import java.util.concurrent.Callable;
 
-public class DBTask<Object> implements Callable<Object> {
+public class DBTask<String> implements Callable<String> {
 
 	@Override
-	public Object call() {
+	public String call() {
 		// Create a connection to DB, select some some from a table and insert
 		// some data into table
 
 		System.out.println("DB task...");
-		return null;
+		
+		return (String) "task is completed";
 
 	}
 
